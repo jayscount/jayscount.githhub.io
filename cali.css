@@ -1,0 +1,41 @@
+ 
+    html,body{width: 100%;
+            height:100%;}
+            
+    body {margin:0 auto;}
+
+    .header {background-color: #ffffff; /* White*/
+             text-align:center;
+             color: #ff0000; /* Red */ 
+             border-style: solid;
+             border-color: #0000ff /* Blue */;
+              font-family: Arial, Helvetica;
+    }
+   
+    .pic {
+     float:left;
+     border-style: hidden;
+     position: absolute;
+     right:0px;
+     width:50%;
+     text-align:center;
+     margin-top:100px;
+     color: #ff0000; /* Red */ 
+      font-family: Arial, Helvetica; /* font */ 
+    }
+    
+
+    .pic img{ width:100%;}
+ 
+   .info {    float:left;
+             width:50%;
+             border-style: hidden;
+             position: absolute;
+             text-align:center;
+              font-family: Arial, Helvetica
+     }
+     
+     .info img { width: 60%;
+                 margin-top:40px;
+     }
+    

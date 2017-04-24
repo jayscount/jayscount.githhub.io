@@ -1,0 +1,39 @@
+ html,body{width: 100%;
+            height:100%;}
+            
+    body {margin:0 auto;}
+
+    .header {background-color:#800000; /* Burgandy*/
+             text-align:center;
+             color: #ffcc00; /* Gold */ 
+             border-style: solid;
+             border-color: #ffcc00 /* Gold */;
+             font-family: Arial, Helvetica;
+    }
+   
+    .pic {
+     float:left;
+     border-style: hidden;
+     position: absolute;
+     right:0px;
+     width:50%;
+     text-align:center;
+     margin-top:100px;
+     color: #ffcc00; /* Gold */
+     font-family: Arial, Helvetica;
+    }
+    
+
+    .pic img{ width:100%;}
+ 
+   .info {    float:left;
+             width:50%;
+             border-style: hidden;
+             position: absolute;
+             text-align:center;
+             font-family: Arial, Helvetica;
+     }
+     
+     .info img { width: 60%;
+                 margin-top:40px;
+     }
